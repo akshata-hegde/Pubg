@@ -1,4 +1,4 @@
-9. Yatin plays PUBG
+ /* 9. Yatin plays PUBG
 Yatin is playing PUBG and he has reached a place with a large staircase in front of him.
 And there is an enemy at each landing of the staircase.
 The staircase is analogous to a binary tree with each of its nodes as a landing of the
@@ -13,22 +13,12 @@ number of people he can kill from that location by providing you with the analog
 a binary search tree.
 [ Note: Players do not change their position after one player has died, i.e. the leftmost
 node remains the same even after player on that node has died. Or we can say that
-the nodes are not removed after the player on that node has died.]
+the nodes are not removed after the player on that node has died.] */
 
-#include <iostream>
+
+	
  
-using namespace std;
- 
-int main() {
-	int num;
-	cin >> num;										// Reading input from STDIN
-	cout << "Input number is " << num << endl;		// Writing output to STDOUT
-}
- 
-// Warning: Printing unwanted or ill-formatted data to output will cause the test cases to fail
-*/
- 
-// Write your code here
+
 #include<iostream>
 #include<cmath>
 using namespace std;
@@ -73,7 +63,7 @@ int main(){
     cout<<endl;
     }
     return 0;
-
+/*
 Input:
 1
 9
@@ -81,3 +71,4 @@ Input:
 
 Output:
 4
+*/
